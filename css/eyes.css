@@ -1,5 +1,6 @@
 /* Start of Pringles Man Animations */
 
+/*KEY NOTE: This animation works on chrome but not! firefox(at least the last !00% part doesnt */
 @keyframes wink{
     0%{
         height: inherit; /*Since no parent, inheriting default val from browser */
@@ -12,7 +13,8 @@
     }
 
     100%{
-        height: 100%;
+        /*height: 100%;*/
+        height: inherit;
         top: 150px;
     }
 }
