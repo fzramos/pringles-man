@@ -83,3 +83,14 @@
     animation-iteration-count: infinite;
 
 }
+
+.famous{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    transform: translate(27vw, 0);/*works with full screen, if you wanted it to be responsive then use media queries */
+}
